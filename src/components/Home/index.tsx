@@ -66,6 +66,7 @@ const Home = ({navigation}: {navigation: any}) => {
         <Picker.Item label="6" value={6} />
         <Picker.Item label="7" value={7} />
       </Picker>
+
       <TouchableOpacity
         style={[styles.button, {width: window.width - 64}]}
         onPress={handleStartGame}
